@@ -226,3 +226,140 @@
     height: calc(80vh-60px);
   }
 }
+
+
+.get__the_app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 48px;
+  width: 100%;
+  background-color: rgb(245, 233, 221);
+}
+
+.get__the_app .semicontainer{
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.get__the_app .left{
+  flex: 2;
+}
+.left img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.get__the_app .right{
+  flex: 3;
+  display: flex;
+  height: 100%;
+  gap: 16px;
+  flex-direction: column;
+
+}
+
+.right h1{
+  font-size: 40px;
+  font-weight: 500;
+}
+.right p{
+  font-size: 14;
+  font-weight: 200;
+}
+
+   /* .right .radio__buttons_container{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+  }
+
+  /* .semicontainer .right .radio__buttons_container div{ */
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  } */ *
+
+
+
+
+
+
+
+
+
+
+
+
+  .semiContainer .right .radio__buttons_container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .semiContainer .right .radio__buttons_container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .semiContainer .right .radio__buttons_container div input {
+    height: 15px;
+    width: 15px;
+    accent-color: rgb(239, 79, 95);
+  }
+  
+  .semiContainer .right .input_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .input_container button,
+  .input_container input {
+    padding: 10px 12px;
+  }
+  
+  .input_container input {
+    border: 1.5px solid gray;
+    outline: none;
+    border-radius: 5px;
+    flex: auto;
+  }
+  
+  .input_container button {
+    border: none;
+    background-color: rgb(239, 79, 95);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .right .download__app_container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  
+  .download__app_container h5 {
+    font-weight: 400;
+    color: gray;
+  }
+  
+  .download__app_container div {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .download__app_container div img {
+    width: 35%;
+    object-fit: cover ;
+  }
+  
